@@ -1,0 +1,126 @@
+@charset "ISO-8859-1";
+
+form>div {
+	display: flex;
+	justify-content: space-between;
+	width: 220px;
+	margin-bottom: 5px;
+}
+
+header {
+	background-color: #73af55;
+}
+
+footer {
+	background-color: #515151;
+}
+
+footer, header {
+	height: 120px;
+	display: flex;
+	align-items: center;
+	padding-left: 50px;
+}
+
+
+h1 {
+	font-family: sans-serif;
+}
+
+h4 {
+	color: #73af55;
+}
+
+main {
+	width: 800px;
+	margin: 20px auto;
+	min-height: 400px;
+}
+
+/* nav > ul { */
+/* 	font-family: sans-serif; */
+/* } */
+/* nav > ul { */
+/* 	list-style-type: none; */
+/* 	display: flex; */ 
+/* } */
+
+
+nav {
+  padding: 1em;
+  font-family:  Verdana, Geneva, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: #333;
+  display:inline-block;
+}
+nav li a {
+  color: white;
+  display: block;
+  text-decoration: none;
+  padding: .5em 1em;
+}
+nav li a:hover {
+  background: tomato;
+  color: white;
+}
+
+
+.boton {
+  border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+	padding: 10px; /*espacio alrededor texto*/
+	background-color: #0000ff; /*color botón*/
+	color: #ffffff; /*color texto*/
+	text-decoration: none; /*decoración texto*/
+	text-transform: uppercase; /*capitalización texto*/
+	font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+	border-radius: 50px; /*bordes redondos*/
+}
+
+
+
+.estilo-tabla {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.estilo-tabla thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.estilo-tabla th,
+.estilo-tabla td {
+    padding: 12px 15px;
+}
+
+.estilo-tabla tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.estilo-tabla tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.estilo-tabla tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.estilo-tabla tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+
+
+
